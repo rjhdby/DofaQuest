@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="quest_item_back">#aaaaffff</color>
+    <color name="quest_item_back_download">#aa909090</color>
 </resources>

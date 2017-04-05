@@ -3,15 +3,28 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_margin="16dp"
-              android:background="@android:color/background_light"
+              android:background="@color/quest_item_back"
               android:orientation="vertical">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:text="Some date"/>
+        android:gravity="center"
+        android:text="Some date"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textAlignment="center"/>
+
 </LinearLayout>
